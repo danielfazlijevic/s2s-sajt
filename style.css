@@ -1,0 +1,90 @@
+body {
+	font-family: 'Questrial', sans-serif;
+	margin: 0;
+	background-color: #f0f0f0;
+}
+
+.outline {
+	outline: 1px solid red;
+
+}
+
+.jumbotron {
+	background-image: linear-gradient(rgba(53, 37, 2, 0.82), rgba(255, 174, 0, 0.5)), url('./img/hero.jpg');
+	width: 100%;
+	padding: 50px;
+	padding-bottom: 8%;
+}
+
+
+
+.jumbotron-content {
+	color: white;
+	padding-left: 30px;
+	padding-top: 10%;
+	font-size: 18px;
+	z-index: 999;
+}
+
+.jumbotron h1 {
+	margin-top: 0;
+	font-size: 52px;
+	font-family: 'Anton', sans-serif;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.meni {
+	z-index: 990;
+	position: fixed;
+	top: 0;
+	right: 50px;
+
+}
+
+.meni ul {
+	list-style-type: none;
+}
+
+.meni li {
+	display: inline-block;
+}
+
+.meni a {
+	font-size: 18px;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.meni a:hover {
+	transition: 0.5s;
+	text-decoration: underline;
+}
+
+.container {
+	padding: 20px;
+
+}
+
+.usluge {
+	display: flex;
+	justify-content: space-around;
+}
+
+.usluga {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+	padding: 10px;
+	margin: 5px;
+}
+
+.usluga img {
+	display: block;
+	margin: 0 auto;
+}
+
+.usluga h1 {
+	text-align: center;
+}
