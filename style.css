@@ -15,7 +15,7 @@ body {
 }
 
 .jumbotron {
-	background-image: linear-gradient(rgba(53, 37, 2, 0.82), rgba(255, 174, 0, 0.5)), url('./img/hero.jpg');
+	background-image: linear-gradient(rgba(0, 49, 112, 0.829), rgba(43, 160, 255, 0.5)), url('./img/hero.jpg');
 	width: 100%;
 	padding: 50px;
 	padding-bottom: 8%;
@@ -106,21 +106,27 @@ body {
 }
 
 .projekat {
-	background-color: white;
+	/* background-color: white; */
 	padding: 10px 20px;
 	margin: 10px;
-	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+	/* box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07); */
 	border-radius: 5px;
 }
 
-.projekat>div {
+.projekat {
 	display: flex;
 	justify-content: space-between;
 }
 
-.projekat p {
+.projekat>div {
 	padding-left: 20px;
 }
+
+.projekat a {
+	float: right;
+}
+
+
 
 .clanovi {
 	display: flex;
@@ -130,9 +136,21 @@ body {
 .clan {
 	background-color: white;
 	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
-	border-radius: 5px;
+	border-radius: 12px;
 	cursor: pointer;
 	transition: 0.6s;
+}
+
+.clan img {
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.clan a {
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
 }
 
 h1 {
@@ -152,21 +170,20 @@ h1 {
 	padding: 5px 20px 20px;
 }
 
-.info a {
-	text-decoration: none;
-	background-color: #f7d201;
-	padding: 5px 10px;
-	color: #fff;
-	display: block;
-	max-width: 33%;
-	margin: 0 auto;
-}
+
 
 .button {
 	text-decoration: none;
-	background-color: #f7d201;
+	background-color: #01d2f7;
 	color: white;
-	padding: 5px 10px;
+	padding: 7px 12px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(118, 234, 255, 0.6);
+	transition: 0.6s;
+}
+
+.button:hover {
+	box-shadow: 0 7px 15px rgba(118, 234, 255, 0.6);
 }
 
 .text-faded,
@@ -182,6 +199,10 @@ hr {
 
 }
 
+.projekat img {
+	border-radius: 12px;
+	max-height: 100%;
+}
 
 @media only screen and (max-width: 768px) {
 	.jumbotron {
