@@ -148,3 +148,40 @@ body {
 	max-width: 33%;
 	margin: 0 auto;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.jumbotron {
+		background-size: cover;
+	}
+
+	.usluge,
+	.clanovi {
+		flex-direction: column;
+	}
+
+	.usluge img {
+		max-width: 100%;
+	}
+
+	.clan img {
+		width: 100%;
+	}
+
+	.clan {
+		margin: 10px;
+	}
+
+	.projekat>div {
+		flex-direction: column;
+	}
+
+	.projekat img {
+		max-width: 100%;
+	}
+
+}
