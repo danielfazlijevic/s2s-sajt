@@ -15,10 +15,11 @@ body {
 }
 
 .jumbotron {
-	background-image: linear-gradient(rgba(0, 49, 112, 0.829), rgba(43, 160, 255, 0.5)), url('./img/hero.jpg');
+	/* background-image: linear-gradient(rgba(0, 49, 112, 0.829), rgba(43, 160, 255, 0.5)), url('./img/hero2.jpg'); */
+	background-image: url('./img/hero2.jpg');
 	width: 100%;
 	padding: 50px;
-	padding-bottom: 8%;
+	padding-bottom: 15%;
 	max-width: 100vw;
 }
 
@@ -34,12 +35,14 @@ body {
 
 .jumbotron h1 {
 	margin: 0;
-	font-size: 52px;
+	font-size: 64px;
+	letter-spacing: 3px;
 	font-family: 'Anton', sans-serif;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
 
 .jumbotron p {
+	font-size: 20px;
 	color: #fff;
 }
 
@@ -161,12 +164,11 @@ body {
 	border-top-left-radius: 12px;
 }
 
-.clan a {
-	display: block;
-	margin: 0 auto;
-	width: 40%;
-	text-align: center;
+.clan span {
+	display: inline;
+	color: #4d4d4d;
 }
+
 
 h1 {
 	margin-bottom: 5px;
@@ -177,8 +179,40 @@ h1 {
 }
 
 .clan h2 {
-	margin: 5px;
-	text-align: center;
+	margin: 10px 0;
+}
+
+a.link {
+	display: inline;
+	text-align: right;
+	color: #00adcc;
+	float: right;
+	transition: 0.6s;
+}
+
+a.link:hover {
+	color: #00d9ff;
+}
+
+
+a.link:hover i {
+	transition: 1s;
+	animation: slide 0.3s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes slide {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(20%);
+	}
+}
+
+.fas {
+	font-size: 10px;
 }
 
 .info {
@@ -218,6 +252,8 @@ hr {
 	border-radius: 12px;
 	max-height: 100%;
 }
+
+
 
 @media only screen and (max-width: 768px) {
 	.jumbotron {
