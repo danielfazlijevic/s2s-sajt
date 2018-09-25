@@ -21,8 +21,8 @@ body {
 	padding: 50px;
 	padding-bottom: 15%;
 	max-width: 100vw;
+	background-attachment: fixed;
 }
-
 
 
 .jumbotron-content {
@@ -253,11 +253,16 @@ hr {
 	max-height: 100%;
 }
 
+#menu-icon,
+#close-icon {
+	display: none;
+}
 
 
 @media only screen and (max-width: 768px) {
 	.jumbotron {
 		background-size: cover;
+		background-position: right;
 	}
 
 	.usluge,
@@ -287,5 +292,42 @@ hr {
 
 	.usluga {
 		max-width: 100%;
+	}
+
+	.meni {
+		display: none;
+		width: 100vw;
+		height: 100vh;
+		font-size: 26px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: black;
+		padding-top: 25%;
+	}
+
+	.meni li {
+		display: block;
+	}
+
+	.meni li a {
+		font-size: 42px;
+
+	}
+
+	#menu-icon,
+	#close-icon {
+		display: block;
+		position: absolute;
+		top: 2%;
+		right: 5%;
+		color: white;
+
+	}
+
+	#close-icon {
+		z-index: 9999;
+		position: fixed;
+		display: none;
 	}
 }
