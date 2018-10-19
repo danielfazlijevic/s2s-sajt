@@ -187,7 +187,6 @@ body {
 	color: #4d4d4d;
 }
 
-
 h1 {
 	margin-bottom: 5px;
 }
@@ -211,7 +210,6 @@ a.link {
 a.link:hover {
 	color: #00d9ff;
 }
-
 
 a.link:hover i {
 	transition: 1s;
@@ -237,8 +235,6 @@ a.link:hover i {
 	padding: 5px 20px 20px;
 }
 
-
-
 .button {
 	text-decoration: none;
 	background-color: #01d2f7;
@@ -258,12 +254,10 @@ p {
 	color: #4d4d4d
 }
 
-
 hr {
 	border-color: black;
 	border-width: 2px;
 	width: 15%;
-
 }
 
 .projekat img {
