@@ -1,5 +1,8 @@
 # Korisni linkovi
 
+[Prezentacija](https://docs.google.com/presentation/d/1zOZ_5QLS1TenvDnZ8mNoJJBnLMtXA5bYnw7VXEuDNHA/edit?usp=sharing)
+
+
 #### Odakle uciti?
 - [Codeademy](https://www.codecademy.com/)
 - [FreeCodeCamp](https://www.freecodecamp.org/)
