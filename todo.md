@@ -13,6 +13,9 @@
 </html>
 ```
 
+*publika zadivljena, veliki aplauz*
+
+
 ### HTML Tagovi
  ```html
  <p>
@@ -32,3 +35,5 @@
 /* redosled atributa nije bitan! */
 ```
 #### Klase i ID
+
+
