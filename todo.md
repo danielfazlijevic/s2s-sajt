@@ -8,13 +8,10 @@
 <title>Naslov stranice</title>  
 </head>  
 <body>  
-  <p>Hello, S2S!
+  <p>Hello, S2S!</p>
 </body>  
 </html>
 ```
-
-*publika zadivljena, veliki aplauz*
-
 
 ### HTML Tagovi
  ```html
@@ -34,6 +31,12 @@
 <link rel="stylesheet" type="text/css" href="theme.css">
 /* redosled atributa nije bitan! */
 ```
-#### Klase i ID
+#### Klase i ID(+div)
 
+#### Text ( background, color, font ...)
 
+#### Height, Padding, border-box
+
+#### display property - razlike
+
+#### pozicioniranje elemenata(text-align, float, position, ...)
