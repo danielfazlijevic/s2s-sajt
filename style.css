@@ -6,16 +6,16 @@ body {
 }
 
 * {
+	/* da bi se u visinu/duzinu elementa racunali padding i border */
 	box-sizing: border-box;
 }
 
 .outline {
 	outline: 1px solid red;
-
 }
 
+/* JUMBOTRON  */
 .jumbotron {
-	/* background-image: linear-gradient(rgba(0, 49, 112, 0.829), rgba(43, 160, 255, 0.5)), url('./img/hero2.jpg'); */
 	background-image: url('./img/hero2.jpg');
 	width: 100%;
 	padding: 50px;
@@ -24,13 +24,12 @@ body {
 	background-attachment: fixed;
 }
 
-
 .jumbotron-content {
 	color: white;
 	padding-left: 30px;
 	padding-top: 10%;
 	font-size: 18px;
-	z-index: 999;
+	/* z-index: 999; */
 }
 
 .jumbotron h1 {
@@ -46,12 +45,13 @@ body {
 	color: #fff;
 }
 
+/* MENI */
+
 .meni {
 	z-index: 990;
 	position: absolute;
 	top: 0;
 	right: 50px;
-
 }
 
 .meni ul {
@@ -75,19 +75,19 @@ body {
 	text-decoration: underline;
 }
 
+/* da tekst i elementi ne bi bili odmah to ivica ekrana */
 .container {
 	padding: 20px;
-
 }
 
 .usluge {
 	display: flex;
+	/* horizontalno centriranje */
 	justify-content: center;
 }
 
 .usluga {
 	border-radius: 5px;
-	/* box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07); */
 	padding: 10px;
 	margin: 5px;
 	max-width: 30%;
@@ -102,6 +102,8 @@ body {
 .usluga img {
 	display: block;
 	margin: 0 auto;
+	width: 350px;
+	height: 150px;
 }
 
 .usluga h1 {
@@ -109,10 +111,8 @@ body {
 }
 
 .projekat {
-	/* background-color: white; */
 	padding: 10px 20px;
 	margin: 10px;
-	/* box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07); */
 	border-radius: 5px;
 }
 
@@ -122,6 +122,16 @@ body {
 	transition: 0.6s;
 	cursor: pointer;
 	padding: 20px;
+}
+
+.projekat-slika {
+	display: flex;
+	align-items: center;
+}
+
+.projekat img {
+	max-height: 300px;
+	max-width: 300px;
 }
 
 .flex-reverse {
@@ -149,6 +159,7 @@ body {
 .clanovi {
 	display: flex;
 	justify-content: space-around;
+	padding: 3% 0;
 }
 
 .clan {
@@ -162,6 +173,8 @@ body {
 .clan img {
 	border-top-right-radius: 12px;
 	border-top-left-radius: 12px;
+	width: 300px;
+	height: 210px;
 }
 
 .clan span {
@@ -258,6 +271,54 @@ hr {
 	display: none;
 }
 
+/* KONTAKT FORMA */
+form {
+	background-color: white;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+	padding: 20px;
+	width: 45%;
+}
+
+input,
+label {
+	display: block;
+}
+
+label {
+	font-size: 22px;
+}
+
+input,
+textarea {
+	padding: 5px;
+	border: 0;
+	border-bottom: 2px solid #00adcc;
+}
+
+input:focus {
+	border-color: transparent;
+	box-shadow: 0 5px 8px rgba(50, 50, 93, .1);
+
+}
+
+.kontakt input,
+.kontakt textarea {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.kontakt button {
+	background-color: #00adcc;
+	border: 0;
+	color: #fff;
+	width: 100%;
+	font-size: 20px;
+	padding: 15px;
+}
+
+footer {
+	padding: 20px;
+}
 
 @media only screen and (max-width: 768px) {
 	.jumbotron {
@@ -294,6 +355,7 @@ hr {
 		max-width: 100%;
 	}
 
+
 	.meni {
 		display: none;
 		width: 100vw;
@@ -313,6 +375,10 @@ hr {
 	.meni li a {
 		font-size: 42px;
 
+	}
+
+	form {
+		width: 100%;
 	}
 
 	#menu-icon,
