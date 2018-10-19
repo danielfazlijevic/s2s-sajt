@@ -9,6 +9,7 @@
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Responsive Web Design](https://www.w3schools.com/css/css_rwd_intro.asp)
 - [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=sr)
+- [Git Flight Rules](https://github.com/k88hudson/git-flight-rules)
 
 #### Dokumentacija
 - [W3Schools](https://www.w3schools.com/)
